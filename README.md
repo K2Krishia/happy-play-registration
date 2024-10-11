@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+FRONTEND TECHNICAL EXAM (exam duration: 1 hour and 30 mins)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* Main Goal
+ - implement the designed first step of player registration using React JS from scratch
 
-## Available Scripts
+* Subtasks
+ - implement react js template based on figma design
+ - implement a collapsible component
+ - integrate location APIs
+ - log the registration data in the console upon click of the "Register" button
+* Bonus Task
+ - push your source code to a branch in the repository in this format <your-lastname>-registration
 
-In the project directory, you can run:
+Figma Prototype Link:
+https://www.figma.com/proto/aEDhxOi3U9boqJSsXeCe3i/Sample-Registration?node-id=1-1375&node-type=frame&t=u0f4jw3BtL8Fpsz3-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1
 
-### `npm start`
+Figma Design Link:
+https://www.figma.com/design/aEDhxOi3U9boqJSsXeCe3i/Sample-Registration?node-id=0-1&node-type=canvas&t=FKgwUwIi79gCXVRo-0
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Address APIs:
+Get Regions - https://psgc.gitlab.io/api/regions
+Get Provinces by Region - https://psgc.gitlab.io/api/regions/$regionCode/provinces
+Get Municipality/Cities by Region - https://psgc.gitlab.io/api/regions/$regionCode/cities
+Get Municipalities/Cities by Province - https://psgc.gitlab.io/api/provinces/$provinceCode/cities-municipalities
+Get Barangays by Municipality - https://psgc.gitlab.io/api//cities-municipalities/$municipalityCode/barangays
